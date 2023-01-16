@@ -1,7 +1,7 @@
 # block-inflight
 Track current amount of inflight requests to a block device.
 
-Polls the file /sys/block/<devlabel>/inflight file.
+Polls the file /sys/block/BLOCK DEVICE/inflight file.
 
 ## Usage
 Block device and filename are required arguments. You can optionally specify verbosity although it adds overhead. Here's the usage:
