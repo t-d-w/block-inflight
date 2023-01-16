@@ -4,6 +4,8 @@ Track current amount of inflight requests to a block device.
 Polls the file /sys/block/<devlabel>/inflight file.
 
 ## Usage
+Block device and filename are required arguments. You can optionally specify verbosity although it adds overhead. Here's the usage:
+  
 usage: block-inflight.py [-h] -d DEVICE -f FILENAME [-v]
 
 optional arguments:
